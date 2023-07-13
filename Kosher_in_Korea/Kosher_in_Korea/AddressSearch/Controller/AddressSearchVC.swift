@@ -1,13 +1,13 @@
 //
-//  UserRecommendVC.swift
+//  AddressSearchVC.swift
 //  Kosher_in_Korea
 //
-//  Created by 김정원 on 2023/07/13.
+//  Created by 김정원 on 2023/07/14.
 //
 
 import UIKit
 
-class RecommendVC: UIViewController {
+class AddressSearchVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
