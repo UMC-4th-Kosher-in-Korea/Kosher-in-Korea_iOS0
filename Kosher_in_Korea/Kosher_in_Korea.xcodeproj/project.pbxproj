@@ -14,6 +14,8 @@
 		FF3F71C62A605A7800067530 /* VCData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71C52A605A7800067530 /* VCData.swift */; };
 		FF3F71CC2A60604400067530 /* AddressSearch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF3F71CB2A60604400067530 /* AddressSearch.storyboard */; };
 		FF3F71CE2A60605300067530 /* AddressSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3F71CD2A60605300067530 /* AddressSearchVC.swift */; };
+		FF57933D2A611C3200FA65D5 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF57933C2A611C3200FA65D5 /* Order.storyboard */; };
+		FF57933F2A611C4000FA65D5 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF57933E2A611C4000FA65D5 /* OrderVC.swift */; };
 		FF5B323B2A6029300030E5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B323A2A6029300030E5FB /* AppDelegate.swift */; };
 		FF5B323D2A6029300030E5FB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B323C2A6029300030E5FB /* SceneDelegate.swift */; };
 		FF5B323F2A6029300030E5FB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B323E2A6029300030E5FB /* HomeVC.swift */; };
@@ -21,12 +23,12 @@
 		FF5B32442A6029310030E5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5B32432A6029310030E5FB /* Assets.xcassets */; };
 		FF5B32472A6029310030E5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5B32452A6029310030E5FB /* LaunchScreen.storyboard */; };
 		FF5B32552A602A8C0030E5FB /* ReservationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B32542A602A8C0030E5FB /* ReservationVC.swift */; };
-		FF5B32572A602E100030E5FB /* Review.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5B32562A602E100030E5FB /* Review.storyboard */; };
-		FF5B32592A602E1D0030E5FB /* ReviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B32582A602E1D0030E5FB /* ReviewVC.swift */; };
 		FF5B325B2A602E790030E5FB /* UserPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5B325A2A602E790030E5FB /* UserPage.storyboard */; };
 		FF5B325D2A602E850030E5FB /* UserPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5B325C2A602E850030E5FB /* UserPageVC.swift */; };
-		FF9D2D912A606BDE00E77923 /* RestaurantRecommendation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9D2D902A606BDE00E77923 /* RestaurantRecommendation.storyboard */; };
-		FF9D2D932A606BEE00E77923 /* RestaurantRecommendationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9D2D922A606BEE00E77923 /* RestaurantRecommendationVC.swift */; };
+		FF7845792A666A9300E2A663 /* RestaurantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7845782A666A9300E2A663 /* RestaurantData.swift */; };
+		FF78457B2A666B9900E2A663 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF78457A2A666B9900E2A663 /* RestaurantViewCell.swift */; };
+		FF93DE992A655984002E952D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF93DE982A655984002E952D /* Login.storyboard */; };
+		FF93DE9B2A65599B002E952D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93DE9A2A65599B002E952D /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		FF3F71C52A605A7800067530 /* VCData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCData.swift; sourceTree = "<group>"; };
 		FF3F71CB2A60604400067530 /* AddressSearch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AddressSearch.storyboard; sourceTree = "<group>"; };
 		FF3F71CD2A60605300067530 /* AddressSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressSearchVC.swift; sourceTree = "<group>"; };
+		FF57933C2A611C3200FA65D5 /* Order.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Order.storyboard; sourceTree = "<group>"; };
+		FF57933E2A611C4000FA65D5 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
 		FF5B32372A6029300030E5FB /* Kosher_in_Korea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kosher_in_Korea.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5B323A2A6029300030E5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF5B323C2A6029300030E5FB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -46,12 +50,12 @@
 		FF5B32462A6029310030E5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF5B32482A6029310030E5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF5B32542A602A8C0030E5FB /* ReservationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationVC.swift; sourceTree = "<group>"; };
-		FF5B32562A602E100030E5FB /* Review.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Review.storyboard; sourceTree = "<group>"; };
-		FF5B32582A602E1D0030E5FB /* ReviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewVC.swift; sourceTree = "<group>"; };
 		FF5B325A2A602E790030E5FB /* UserPage.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserPage.storyboard; sourceTree = "<group>"; };
 		FF5B325C2A602E850030E5FB /* UserPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPageVC.swift; sourceTree = "<group>"; };
-		FF9D2D902A606BDE00E77923 /* RestaurantRecommendation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RestaurantRecommendation.storyboard; sourceTree = "<group>"; };
-		FF9D2D922A606BEE00E77923 /* RestaurantRecommendationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantRecommendationVC.swift; sourceTree = "<group>"; };
+		FF7845782A666A9300E2A663 /* RestaurantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantData.swift; sourceTree = "<group>"; };
+		FF78457A2A666B9900E2A663 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
+		FF93DE982A655984002E952D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		FF93DE9A2A65599B002E952D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,32 +69,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FF3F719B2A603E2000067530 /* Recommend */ = {
-			isa = PBXGroup;
-			children = (
-				FF3F71C12A6048FD00067530 /* Model */,
-				FF3F71A22A603E2000067530 /* View */,
-				FF3F719C2A603E2000067530 /* Controller */,
-			);
-			path = Recommend;
-			sourceTree = "<group>";
-		};
-		FF3F719C2A603E2000067530 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FF5B32582A602E1D0030E5FB /* ReviewVC.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		FF3F71A22A603E2000067530 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				FF5B32562A602E100030E5FB /* Review.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		FF3F71A52A603E3A00067530 /* UserPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,13 +117,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		FF3F71C12A6048FD00067530 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		FF3F71C22A6056C600067530 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +159,39 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		FF5793382A611BF300FA65D5 /* MyOrder */ = {
+			isa = PBXGroup;
+			children = (
+				FF57933B2A611C1F00FA65D5 /* Model */,
+				FF57933A2A611C1900FA65D5 /* View */,
+				FF5793392A611C1300FA65D5 /* Controller */,
+			);
+			path = MyOrder;
+			sourceTree = "<group>";
+		};
+		FF5793392A611C1300FA65D5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF57933E2A611C4000FA65D5 /* OrderVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF57933A2A611C1900FA65D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF57933C2A611C3200FA65D5 /* Order.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF57933B2A611C1F00FA65D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		FF5B322E2A6029300030E5FB = {
 			isa = PBXGroup;
 			children = (
@@ -207,15 +211,14 @@
 		FF5B32392A6029300030E5FB /* Kosher_in_Korea */ = {
 			isa = PBXGroup;
 			children = (
-				FF9D2D8C2A606B7C00E77923 /* RestaurantRecommendation */,
+				FF78457C2A66FA4600E2A663 /* Home */,
+				FF93DE942A65593A002E952D /* Login */,
+				FF5793382A611BF300FA65D5 /* MyOrder */,
 				FF3F71C72A605FD500067530 /* AddressSearch */,
 				FF5B323A2A6029300030E5FB /* AppDelegate.swift */,
 				FF5B323C2A6029300030E5FB /* SceneDelegate.swift */,
-				FF5B323E2A6029300030E5FB /* HomeVC.swift */,
-				FF5B32402A6029300030E5FB /* Main.storyboard */,
 				FF5B325E2A603D0C0030E5FB /* Search */,
 				FF5B32702A603D710030E5FB /* Reservation */,
-				FF3F719B2A603E2000067530 /* Recommend */,
 				FF3F71A52A603E3A00067530 /* UserPage */,
 				FF3F71C22A6056C600067530 /* Utils */,
 				FF5B32432A6029310030E5FB /* Assets.xcassets */,
@@ -276,33 +279,68 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		FF9D2D8C2A606B7C00E77923 /* RestaurantRecommendation */ = {
+		FF78457C2A66FA4600E2A663 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				FF9D2D8F2A606BC600E77923 /* Model */,
-				FF9D2D8D2A606BAB00E77923 /* View */,
-				FF9D2D8E2A606BC100E77923 /* Controller */,
+				FF78457F2A66FA5F00E2A663 /* Model */,
+				FF78457E2A66FA5B00E2A663 /* View */,
+				FF78457D2A66FA5100E2A663 /* Controller */,
 			);
-			path = RestaurantRecommendation;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		FF9D2D8D2A606BAB00E77923 /* View */ = {
+		FF78457D2A66FA5100E2A663 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				FF9D2D902A606BDE00E77923 /* RestaurantRecommendation.storyboard */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		FF9D2D8E2A606BC100E77923 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FF9D2D922A606BEE00E77923 /* RestaurantRecommendationVC.swift */,
+				FF78457A2A666B9900E2A663 /* RestaurantViewCell.swift */,
+				FF5B323E2A6029300030E5FB /* HomeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		FF9D2D8F2A606BC600E77923 /* Model */ = {
+		FF78457E2A66FA5B00E2A663 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF5B32402A6029300030E5FB /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF78457F2A66FA5F00E2A663 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FF7845782A666A9300E2A663 /* RestaurantData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FF93DE942A65593A002E952D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FF93DE972A655977002E952D /* Model */,
+				FF93DE962A655973002E952D /* View */,
+				FF93DE952A65596A002E952D /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FF93DE952A65596A002E952D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF93DE9A2A65599B002E952D /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FF93DE962A655973002E952D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FF93DE982A655984002E952D /* Login.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FF93DE972A655977002E952D /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -369,13 +407,13 @@
 			files = (
 				FF5B325B2A602E790030E5FB /* UserPage.storyboard in Resources */,
 				FF5B32472A6029310030E5FB /* LaunchScreen.storyboard in Resources */,
-				FF5B32572A602E100030E5FB /* Review.storyboard in Resources */,
 				FF3F71CC2A60604400067530 /* AddressSearch.storyboard in Resources */,
+				FF93DE992A655984002E952D /* Login.storyboard in Resources */,
 				FF5B32442A6029310030E5FB /* Assets.xcassets in Resources */,
 				FF3F71B82A60409200067530 /* Search.storyboard in Resources */,
 				FF5B32422A6029300030E5FB /* Main.storyboard in Resources */,
 				FF3F71BA2A6041BC00067530 /* Reservation.storyboard in Resources */,
-				FF9D2D912A606BDE00E77923 /* RestaurantRecommendation.storyboard in Resources */,
+				FF57933D2A611C3200FA65D5 /* Order.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,12 +426,14 @@
 			files = (
 				FF3F71B32A603F7A00067530 /* SearchVC.swift in Sources */,
 				FF5B323F2A6029300030E5FB /* HomeVC.swift in Sources */,
+				FF93DE9B2A65599B002E952D /* LoginVC.swift in Sources */,
 				FF5B323B2A6029300030E5FB /* AppDelegate.swift in Sources */,
 				FF3F71C62A605A7800067530 /* VCData.swift in Sources */,
-				FF9D2D932A606BEE00E77923 /* RestaurantRecommendationVC.swift in Sources */,
 				FF5B32552A602A8C0030E5FB /* ReservationVC.swift in Sources */,
+				FF78457B2A666B9900E2A663 /* RestaurantViewCell.swift in Sources */,
 				FF5B323D2A6029300030E5FB /* SceneDelegate.swift in Sources */,
-				FF5B32592A602E1D0030E5FB /* ReviewVC.swift in Sources */,
+				FF57933F2A611C4000FA65D5 /* OrderVC.swift in Sources */,
+				FF7845792A666A9300E2A663 /* RestaurantData.swift in Sources */,
 				FF3F71C42A6056F200067530 /* StackNavigation.swift in Sources */,
 				FF5B325D2A602E850030E5FB /* UserPageVC.swift in Sources */,
 				FF3F71CE2A60605300067530 /* AddressSearchVC.swift in Sources */,
