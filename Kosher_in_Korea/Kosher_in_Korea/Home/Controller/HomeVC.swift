@@ -11,11 +11,12 @@ class HomeVC: UIViewController {
 
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collectionView: UICollectionView!
-    let list : [BannerInfo] = BannerInfo.list
+    
     @IBAction func addressButtonTapped(_ sender: Any) {
         goAddressSearch(controller: self)
     }
-   
+    
+    //let list : [BannerInfo] = BannerInfo.list
     let bannerInfos : [BannerInfo] = BannerInfo.list
     typealias Item = BannerInfo
     var datasoucre : UICollectionViewDiffableDataSource<Section , Item>!
@@ -54,38 +55,10 @@ class HomeVC: UIViewController {
         collectionView.alwaysBounceVertical = false
 
     }
-    private func layout() -> UICollectionViewCompositionalLayout {
-        
-        let itemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(1) , heightDimension: .fractionalHeight(1))
-        
-        let item = NSCollectionLayoutItem(layoutSize: itemSize)
-        
-        let groupSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(0.8), heightDimension: .absolute(200))
-        
-        let group = NSCollectionLayoutGroup.horizontal(layoutSize: groupSize, subitems: [item])
-        
-        let section = NSCollectionLayoutSection(group:group)
-        section.orthogonalScrollingBehavior = .groupPagingCentered // 너비에 구애받지 않게 연속적으로 나타나게끔
-        section.interGroupSpacing = 20
-        
-        
-        let layout = UICollectionViewCompositionalLayout(section: section)
-        
-        return layout
-    }
-    
-
 }
 
 extension HomeVC : UICollectionViewDelegate{
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        //let framework = list[indexPath.item]
-//        print("d")
-//        let storyboard = UIStoryboard(name: "Reservation", bundle: nil)
-//        let vc = storyboard.instantiateViewController(withIdentifier: "ReservationVC") as! ReservationVC
-//        present(vc, animated: true)
         goReservation(controller: self)
-        
-
     }
 }
