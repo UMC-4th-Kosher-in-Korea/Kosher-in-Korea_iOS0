@@ -29,6 +29,7 @@
 		FF78457B2A666B9900E2A663 /* RestaurantViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF78457A2A666B9900E2A663 /* RestaurantViewCell.swift */; };
 		FF93DE992A655984002E952D /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF93DE982A655984002E952D /* Login.storyboard */; };
 		FF93DE9B2A65599B002E952D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF93DE9A2A65599B002E952D /* LoginVC.swift */; };
+		FFB6721C2A6A959800A1269B /* HomeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB6721B2A6A959800A1269B /* HomeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		FF78457A2A666B9900E2A663 /* RestaurantViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewCell.swift; sourceTree = "<group>"; };
 		FF93DE982A655984002E952D /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		FF93DE9A2A65599B002E952D /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		FFB6721B2A6A959800A1269B /* HomeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +312,7 @@
 			isa = PBXGroup;
 			children = (
 				FF7845782A666A9300E2A663 /* RestaurantData.swift */,
+				FFB6721B2A6A959800A1269B /* HomeData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				FF5B323F2A6029300030E5FB /* HomeVC.swift in Sources */,
 				FF93DE9B2A65599B002E952D /* LoginVC.swift in Sources */,
 				FF5B323B2A6029300030E5FB /* AppDelegate.swift in Sources */,
+				FFB6721C2A6A959800A1269B /* HomeData.swift in Sources */,
 				FF3F71C62A605A7800067530 /* VCData.swift in Sources */,
 				FF5B32552A602A8C0030E5FB /* ReservationVC.swift in Sources */,
 				FF78457B2A666B9900E2A663 /* RestaurantViewCell.swift in Sources */,
